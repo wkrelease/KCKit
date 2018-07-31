@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C78C50021104304006E9F6C /* NSArray+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C460211042E6006E9F6C /* NSArray+KCAdd.m */; };
+		3C78C50121104304006E9F6C /* NSAttributedString+KCText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C461211042E6006E9F6C /* NSAttributedString+KCText.m */; };
+		3C78C50221104304006E9F6C /* KCSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C462211042E6006E9F6C /* KCSpriteSheetImage.m */; };
+		3C78C50321104304006E9F6C /* KCTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C466211042E7006E9F6C /* KCTextRunDelegate.m */; };
+		3C78C50421104304006E9F6C /* KCTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C469211042E7006E9F6C /* KCTextUtilities.m */; };
+		3C78C50521104304006E9F6C /* UIFont+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C46B211042E7006E9F6C /* UIFont+KCAdd.m */; };
+		3C78C50621104304006E9F6C /* UIApplication+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C46E211042E7006E9F6C /* UIApplication+KCAdd.m */; };
+		3C78C50721104304006E9F6C /* NSBundle+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C472211042E8006E9F6C /* NSBundle+KCAdd.m */; };
+		3C78C50821104304006E9F6C /* KCMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C473211042E8006E9F6C /* KCMemoryCache.m */; };
+		3C78C50921104304006E9F6C /* KCTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C474211042E8006E9F6C /* KCTextArchiver.m */; };
+		3C78C50A21104304006E9F6C /* KCImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C477211042E8006E9F6C /* KCImageCoder.m */; };
+		3C78C50B21104304006E9F6C /* MKAnnotationView+KCWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C47A211042E8006E9F6C /* MKAnnotationView+KCWebImage.m */; };
+		3C78C50C21104304006E9F6C /* UIColor+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C47B211042E8006E9F6C /* UIColor+KCAdd.m */; };
+		3C78C50D21104304006E9F6C /* NSObject+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C47D211042E8006E9F6C /* NSObject+KCAdd.m */; };
+		3C78C50E21104304006E9F6C /* NSNumber+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C47E211042E8006E9F6C /* NSNumber+KCAdd.m */; };
+		3C78C50F21104304006E9F6C /* UIBarButtonItem+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C480211042E9006E9F6C /* UIBarButtonItem+KCAdd.m */; };
+		3C78C51021104304006E9F6C /* NSData+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C482211042E9006E9F6C /* NSData+KCAdd.m */; };
+		3C78C51121104304006E9F6C /* KCTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C483211042E9006E9F6C /* KCTextInput.m */; };
+		3C78C51221104304006E9F6C /* NSDate+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C484211042E9006E9F6C /* NSDate+KCAdd.m */; };
+		3C78C51321104304006E9F6C /* KCCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C485211042E9006E9F6C /* KCCache.m */; };
+		3C78C51421104304006E9F6C /* KCFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C48A211042EA006E9F6C /* KCFrameImage.m */; };
+		3C78C51521104304006E9F6C /* KCWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C48C211042EB006E9F6C /* KCWebImageOperation.m */; };
+		3C78C51621104304006E9F6C /* KCImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C48F211042EB006E9F6C /* KCImageCache.m */; };
+		3C78C51721104304006E9F6C /* NSObject+KCAddForKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C490211042EB006E9F6C /* NSObject+KCAddForKVO.m */; };
+		3C78C51821104304006E9F6C /* NSObject+KCAddForARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C491211042EC006E9F6C /* NSObject+KCAddForARC.m */; };
+		3C78C51921104304006E9F6C /* KCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C493211042EC006E9F6C /* KCImage.m */; };
+		3C78C51A21104304006E9F6C /* KCTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C494211042EC006E9F6C /* KCTextMagnifier.m */; };
+		3C78C51B21104304006E9F6C /* UIScreen+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C495211042EC006E9F6C /* UIScreen+KCAdd.m */; };
+		3C78C51C21104304006E9F6C /* KCReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C496211042EC006E9F6C /* KCReachability.m */; };
+		3C78C51D21104304006E9F6C /* UIGestureRecognizer+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C497211042ED006E9F6C /* UIGestureRecognizer+KCAdd.m */; };
+		3C78C51E21104304006E9F6C /* KCWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C499211042ED006E9F6C /* KCWeakProxy.m */; };
+		3C78C51F21104304006E9F6C /* KCFileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C49A211042EE006E9F6C /* KCFileHash.m */; };
+		3C78C52021104304006E9F6C /* KCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C49B211042EE006E9F6C /* KCLabel.m */; };
+		3C78C52121104304006E9F6C /* UIDevice+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C49C211042EE006E9F6C /* UIDevice+KCAdd.m */; };
+		3C78C52221104304006E9F6C /* KCWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C49D211042EE006E9F6C /* KCWebImageManager.m */; };
+		3C78C52321104304006E9F6C /* UIImageView+KCWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4A0211042EF006E9F6C /* UIImageView+KCWebImage.m */; };
+		3C78C52421104304006E9F6C /* UITextField+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4A2211042F0006E9F6C /* UITextField+KCAdd.m */; };
+		3C78C52521104304006E9F6C /* CALayer+KCWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4A6211042F0006E9F6C /* CALayer+KCWebImage.m */; };
+		3C78C52621104304006E9F6C /* KCTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4AA211042F1006E9F6C /* KCTextLayout.m */; };
+		3C78C52721104304006E9F6C /* NSNotificationCenter+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4AB211042F1006E9F6C /* NSNotificationCenter+KCAdd.m */; };
+		3C78C52821104304006E9F6C /* KCSentinel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4B1211042F3006E9F6C /* KCSentinel.m */; };
+		3C78C52921104304006E9F6C /* NSObject+KCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4B7211042F4006E9F6C /* NSObject+KCModel.m */; };
+		3C78C52A21104304006E9F6C /* KCCGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4BB211042F5006E9F6C /* KCCGUtilities.m */; };
+		3C78C52B21104304006E9F6C /* KCGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4BE211042F5006E9F6C /* KCGestureRecognizer.m */; };
+		3C78C52C21104304006E9F6C /* KCTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4C0211042F5006E9F6C /* KCTextLine.m */; };
+		3C78C52D21104304006E9F6C /* _KCWebImageSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4C6211042F6006E9F6C /* _KCWebImageSetter.m */; };
+		3C78C52E21104304006E9F6C /* NSTimer+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4C8211042F7006E9F6C /* NSTimer+KCAdd.m */; };
+		3C78C52F21104304006E9F6C /* NSString+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4C9211042F7006E9F6C /* NSString+KCAdd.m */; };
+		3C78C53021104304006E9F6C /* KCTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4CA211042F7006E9F6C /* KCTextView.m */; };
+		3C78C53121104304006E9F6C /* NSParagraphStyle+KCText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4CB211042F7006E9F6C /* NSParagraphStyle+KCText.m */; };
+		3C78C53221104304006E9F6C /* UIBezierPath+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4CC211042F8006E9F6C /* UIBezierPath+KCAdd.m */; };
+		3C78C53321104304006E9F6C /* UIView+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4CE211042F8006E9F6C /* UIView+KCAdd.m */; };
+		3C78C53421104304006E9F6C /* KCTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4CF211042F8006E9F6C /* KCTransaction.m */; };
+		3C78C53521104304006E9F6C /* KCTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4D1211042F9006E9F6C /* KCTextContainerView.m */; };
+		3C78C53621104304006E9F6C /* KCDispatchQueuePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4D3211042F9006E9F6C /* KCDispatchQueuePool.m */; };
+		3C78C53721104304006E9F6C /* KCClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4D5211042FA006E9F6C /* KCClassInfo.m */; };
+		3C78C53821104304006E9F6C /* KCTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4D6211042FA006E9F6C /* KCTextDebugOption.m */; };
+		3C78C53921104304006E9F6C /* UIControl+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4DA211042FA006E9F6C /* UIControl+KCAdd.m */; };
+		3C78C53A21104304006E9F6C /* KCSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4DC211042FB006E9F6C /* KCSafeDictionary.m */; };
+		3C78C53B21104304006E9F6C /* KCSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4DF211042FB006E9F6C /* KCSafeArray.m */; };
+		3C78C53C21104304006E9F6C /* KCTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4E0211042FC006E9F6C /* KCTextRubyAnnotation.m */; };
+		3C78C53D21104304006E9F6C /* KCTextEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4E2211042FC006E9F6C /* KCTextEffectWindow.m */; };
+		3C78C53E21104304006E9F6C /* KCAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4E3211042FD006E9F6C /* KCAsyncLayer.m */; };
+		3C78C53F21104304006E9F6C /* KCTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4E4211042FD006E9F6C /* KCTextAttribute.m */; };
+		3C78C54021104304006E9F6C /* KCTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4E5211042FD006E9F6C /* KCTextParser.m */; };
+		3C78C54121104304006E9F6C /* NSDictionary+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4EA211042FE006E9F6C /* NSDictionary+KCAdd.m */; };
+		3C78C54221104304006E9F6C /* UIButton+KCWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4EC211042FF006E9F6C /* UIButton+KCWebImage.m */; };
+		3C78C54321104304006E9F6C /* UIPasteboard+KCText.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4ED211042FF006E9F6C /* UIPasteboard+KCText.m */; };
+		3C78C54421104304006E9F6C /* NSKeyedUnarchiver+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4EE211042FF006E9F6C /* NSKeyedUnarchiver+KCAdd.m */; };
+		3C78C54521104304006E9F6C /* CALayer+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4EF21104300006E9F6C /* CALayer+KCAdd.m */; };
+		3C78C54621104304006E9F6C /* UITableView+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4F321104300006E9F6C /* UITableView+KCAdd.m */; };
+		3C78C54721104304006E9F6C /* KCDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4F621104301006E9F6C /* KCDiskCache.m */; };
+		3C78C54821104304006E9F6C /* KCTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4F721104301006E9F6C /* KCTextSelectionView.m */; };
+		3C78C54921104304006E9F6C /* KCKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4F821104302006E9F6C /* KCKVStorage.m */; };
+		3C78C54A21104304006E9F6C /* NSThread+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4F921104302006E9F6C /* NSThread+KCAdd.m */; };
+		3C78C54B21104304006E9F6C /* UIImage+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4FA21104302006E9F6C /* UIImage+KCAdd.m */; };
+		3C78C54C21104304006E9F6C /* UIScrollView+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4FB21104302006E9F6C /* UIScrollView+KCAdd.m */; };
+		3C78C54D21104304006E9F6C /* KCTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4FC21104303006E9F6C /* KCTextKeyboardManager.m */; };
+		3C78C54E21104304006E9F6C /* KCAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C78C4FF21104303006E9F6C /* KCAnimatedImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C78C42421104269006E9F6C /* KCKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C78C45F211042E6006E9F6C /* KCFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCFrameImage.h; sourceTree = "<group>"; };
+		3C78C460211042E6006E9F6C /* NSArray+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C461211042E6006E9F6C /* NSAttributedString+KCText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+KCText.m"; sourceTree = "<group>"; };
+		3C78C462211042E6006E9F6C /* KCSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSpriteSheetImage.m; sourceTree = "<group>"; };
+		3C78C463211042E6006E9F6C /* UIApplication+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C464211042E7006E9F6C /* NSBundle+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C465211042E7006E9F6C /* KCSentinel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSentinel.h; sourceTree = "<group>"; };
+		3C78C466211042E7006E9F6C /* KCTextRunDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextRunDelegate.m; sourceTree = "<group>"; };
+		3C78C467211042E7006E9F6C /* KCDispatchQueuePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCDispatchQueuePool.h; sourceTree = "<group>"; };
+		3C78C468211042E7006E9F6C /* KCImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCImageCoder.h; sourceTree = "<group>"; };
+		3C78C469211042E7006E9F6C /* KCTextUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextUtilities.m; sourceTree = "<group>"; };
+		3C78C46A211042E7006E9F6C /* NSData+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C46B211042E7006E9F6C /* UIFont+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C46C211042E7006E9F6C /* NSThread+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C46D211042E7006E9F6C /* KCTextSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextSelectionView.h; sourceTree = "<group>"; };
+		3C78C46E211042E7006E9F6C /* UIApplication+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C46F211042E7006E9F6C /* UIImage+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C470211042E7006E9F6C /* NSParagraphStyle+KCText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSParagraphStyle+KCText.h"; sourceTree = "<group>"; };
+		3C78C471211042E8006E9F6C /* KCSafeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSafeDictionary.h; sourceTree = "<group>"; };
+		3C78C472211042E8006E9F6C /* NSBundle+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C473211042E8006E9F6C /* KCMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCMemoryCache.m; sourceTree = "<group>"; };
+		3C78C474211042E8006E9F6C /* KCTextArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextArchiver.m; sourceTree = "<group>"; };
+		3C78C475211042E8006E9F6C /* KCSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSpriteSheetImage.h; sourceTree = "<group>"; };
+		3C78C476211042E8006E9F6C /* KCTextRubyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextRubyAnnotation.h; sourceTree = "<group>"; };
+		3C78C477211042E8006E9F6C /* KCImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCImageCoder.m; sourceTree = "<group>"; };
+		3C78C478211042E8006E9F6C /* KCDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCDiskCache.h; sourceTree = "<group>"; };
+		3C78C479211042E8006E9F6C /* KCWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCWebImageOperation.h; sourceTree = "<group>"; };
+		3C78C47A211042E8006E9F6C /* MKAnnotationView+KCWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+KCWebImage.m"; sourceTree = "<group>"; };
+		3C78C47B211042E8006E9F6C /* UIColor+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C47C211042E8006E9F6C /* KCMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMemoryCache.h; sourceTree = "<group>"; };
+		3C78C47D211042E8006E9F6C /* NSObject+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C47E211042E8006E9F6C /* NSNumber+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C47F211042E9006E9F6C /* KCTextContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextContainerView.h; sourceTree = "<group>"; };
+		3C78C480211042E9006E9F6C /* UIBarButtonItem+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C481211042E9006E9F6C /* UIScreen+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C482211042E9006E9F6C /* NSData+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C483211042E9006E9F6C /* KCTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextInput.m; sourceTree = "<group>"; };
+		3C78C484211042E9006E9F6C /* NSDate+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C485211042E9006E9F6C /* KCCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCCache.m; sourceTree = "<group>"; };
+		3C78C486211042E9006E9F6C /* UITableView+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C487211042E9006E9F6C /* NSObject+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C488211042EA006E9F6C /* NSObject+KCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KCModel.h"; sourceTree = "<group>"; };
+		3C78C489211042EA006E9F6C /* UIBezierPath+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C48A211042EA006E9F6C /* KCFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCFrameImage.m; sourceTree = "<group>"; };
+		3C78C48B211042EA006E9F6C /* NSTimer+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C48C211042EB006E9F6C /* KCWebImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCWebImageOperation.m; sourceTree = "<group>"; };
+		3C78C48D211042EB006E9F6C /* KCTextRunDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextRunDelegate.h; sourceTree = "<group>"; };
+		3C78C48E211042EB006E9F6C /* KCFileHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCFileHash.h; sourceTree = "<group>"; };
+		3C78C48F211042EB006E9F6C /* KCImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCImageCache.m; sourceTree = "<group>"; };
+		3C78C490211042EB006E9F6C /* NSObject+KCAddForKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KCAddForKVO.m"; sourceTree = "<group>"; };
+		3C78C491211042EC006E9F6C /* NSObject+KCAddForARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KCAddForARC.m"; sourceTree = "<group>"; };
+		3C78C492211042EC006E9F6C /* UIFont+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C493211042EC006E9F6C /* KCImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCImage.m; sourceTree = "<group>"; };
+		3C78C494211042EC006E9F6C /* KCTextMagnifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextMagnifier.m; sourceTree = "<group>"; };
+		3C78C495211042EC006E9F6C /* UIScreen+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C496211042EC006E9F6C /* KCReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCReachability.m; sourceTree = "<group>"; };
+		3C78C497211042ED006E9F6C /* UIGestureRecognizer+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C498211042ED006E9F6C /* KCTextUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextUtilities.h; sourceTree = "<group>"; };
+		3C78C499211042ED006E9F6C /* KCWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCWeakProxy.m; sourceTree = "<group>"; };
+		3C78C49A211042EE006E9F6C /* KCFileHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCFileHash.m; sourceTree = "<group>"; };
+		3C78C49B211042EE006E9F6C /* KCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCLabel.m; sourceTree = "<group>"; };
+		3C78C49C211042EE006E9F6C /* UIDevice+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C49D211042EE006E9F6C /* KCWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCWebImageManager.m; sourceTree = "<group>"; };
+		3C78C49E211042EF006E9F6C /* NSArray+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C49F211042EF006E9F6C /* UIControl+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4A0211042EF006E9F6C /* UIImageView+KCWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KCWebImage.m"; sourceTree = "<group>"; };
+		3C78C4A1211042EF006E9F6C /* UIPasteboard+KCText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+KCText.h"; sourceTree = "<group>"; };
+		3C78C4A2211042F0006E9F6C /* UITextField+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C4A3211042F0006E9F6C /* KCSafeArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSafeArray.h; sourceTree = "<group>"; };
+		3C78C4A5211042F0006E9F6C /* KCGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCGestureRecognizer.h; sourceTree = "<group>"; };
+		3C78C4A6211042F0006E9F6C /* CALayer+KCWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+KCWebImage.m"; sourceTree = "<group>"; };
+		3C78C4A7211042F1006E9F6C /* NSDictionary+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4A8211042F1006E9F6C /* UIBarButtonItem+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4A9211042F1006E9F6C /* _KCWebImageSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _KCWebImageSetter.h; sourceTree = "<group>"; };
+		3C78C4AA211042F1006E9F6C /* KCTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextLayout.m; sourceTree = "<group>"; };
+		3C78C4AB211042F1006E9F6C /* NSNotificationCenter+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C4AC211042F2006E9F6C /* CALayer+KCWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+KCWebImage.h"; sourceTree = "<group>"; };
+		3C78C4AD211042F2006E9F6C /* KCKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKitMacro.h; sourceTree = "<group>"; };
+		3C78C4AE211042F2006E9F6C /* KCAssertDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAssertDefine.h; sourceTree = "<group>"; };
+		3C78C4AF211042F2006E9F6C /* KCAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAsyncLayer.h; sourceTree = "<group>"; };
+		3C78C4B0211042F3006E9F6C /* NSString+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4B1211042F3006E9F6C /* KCSentinel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSentinel.m; sourceTree = "<group>"; };
+		3C78C4B2211042F3006E9F6C /* KCTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextParser.h; sourceTree = "<group>"; };
+		3C78C4B3211042F3006E9F6C /* UITextField+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4B4211042F3006E9F6C /* UIDevice+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4B5211042F3006E9F6C /* KCTextLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextLine.h; sourceTree = "<group>"; };
+		3C78C4B6211042F4006E9F6C /* KCTextArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextArchiver.h; sourceTree = "<group>"; };
+		3C78C4B7211042F4006E9F6C /* NSObject+KCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KCModel.m"; sourceTree = "<group>"; };
+		3C78C4B8211042F4006E9F6C /* KCTextKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextKeyboardManager.h; sourceTree = "<group>"; };
+		3C78C4B9211042F4006E9F6C /* KCTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextView.h; sourceTree = "<group>"; };
+		3C78C4BA211042F4006E9F6C /* UIColor+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4BB211042F5006E9F6C /* KCCGUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCCGUtilities.m; sourceTree = "<group>"; };
+		3C78C4BC211042F5006E9F6C /* NSNumber+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4BD211042F5006E9F6C /* KCTextAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextAttribute.h; sourceTree = "<group>"; };
+		3C78C4BE211042F5006E9F6C /* KCGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCGestureRecognizer.m; sourceTree = "<group>"; };
+		3C78C4BF211042F5006E9F6C /* KCImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCImage.h; sourceTree = "<group>"; };
+		3C78C4C0211042F5006E9F6C /* KCTextLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextLine.m; sourceTree = "<group>"; };
+		3C78C4C1211042F6006E9F6C /* KCClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCClassInfo.h; sourceTree = "<group>"; };
+		3C78C4C2211042F6006E9F6C /* CALayer+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4C3211042F6006E9F6C /* KCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCLabel.h; sourceTree = "<group>"; };
+		3C78C4C4211042F6006E9F6C /* KCTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextInput.h; sourceTree = "<group>"; };
+		3C78C4C5211042F6006E9F6C /* NSAttributedString+KCText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+KCText.h"; sourceTree = "<group>"; };
+		3C78C4C6211042F6006E9F6C /* _KCWebImageSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _KCWebImageSetter.m; sourceTree = "<group>"; };
+		3C78C4C7211042F7006E9F6C /* NSNotificationCenter+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4C8211042F7006E9F6C /* NSTimer+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C4C9211042F7006E9F6C /* NSString+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C4CA211042F7006E9F6C /* KCTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextView.m; sourceTree = "<group>"; };
+		3C78C4CB211042F7006E9F6C /* NSParagraphStyle+KCText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSParagraphStyle+KCText.m"; sourceTree = "<group>"; };
+		3C78C4CC211042F8006E9F6C /* UIBezierPath+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C4CD211042F8006E9F6C /* UIGestureRecognizer+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4CE211042F8006E9F6C /* UIView+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C4CF211042F8006E9F6C /* KCTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTransaction.m; sourceTree = "<group>"; };
+		3C78C4D0211042F8006E9F6C /* KCTextMagnifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextMagnifier.h; sourceTree = "<group>"; };
+		3C78C4D1211042F9006E9F6C /* KCTextContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextContainerView.m; sourceTree = "<group>"; };
+		3C78C4D2211042F9006E9F6C /* UIButton+KCWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KCWebImage.h"; sourceTree = "<group>"; };
+		3C78C4D3211042F9006E9F6C /* KCDispatchQueuePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCDispatchQueuePool.m; sourceTree = "<group>"; };
+		3C78C4D4211042F9006E9F6C /* KCCGUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCCGUtilities.h; sourceTree = "<group>"; };
+		3C78C4D5211042FA006E9F6C /* KCClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCClassInfo.m; sourceTree = "<group>"; };
+		3C78C4D6211042FA006E9F6C /* KCTextDebugOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextDebugOption.m; sourceTree = "<group>"; };
+		3C78C4D7211042FA006E9F6C /* KCKVStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKVStorage.h; sourceTree = "<group>"; };
+		3C78C4D8211042FA006E9F6C /* NSObject+KCAddForKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KCAddForKVO.h"; sourceTree = "<group>"; };
+		3C78C4D9211042FA006E9F6C /* KCAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAnimatedImageView.h; sourceTree = "<group>"; };
+		3C78C4DA211042FA006E9F6C /* UIControl+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C4DB211042FB006E9F6C /* UIScrollView+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4DC211042FB006E9F6C /* KCSafeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSafeDictionary.m; sourceTree = "<group>"; };
+		3C78C4DD211042FB006E9F6C /* KCImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCImageCache.h; sourceTree = "<group>"; };
+		3C78C4DE211042FB006E9F6C /* KCReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCReachability.h; sourceTree = "<group>"; };
+		3C78C4DF211042FB006E9F6C /* KCSafeArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSafeArray.m; sourceTree = "<group>"; };
+		3C78C4E0211042FC006E9F6C /* KCTextRubyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextRubyAnnotation.m; sourceTree = "<group>"; };
+		3C78C4E1211042FC006E9F6C /* KCWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCWebImageManager.h; sourceTree = "<group>"; };
+		3C78C4E2211042FC006E9F6C /* KCTextEffectWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextEffectWindow.m; sourceTree = "<group>"; };
+		3C78C4E3211042FD006E9F6C /* KCAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAsyncLayer.m; sourceTree = "<group>"; };
+		3C78C4E4211042FD006E9F6C /* KCTextAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextAttribute.m; sourceTree = "<group>"; };
+		3C78C4E5211042FD006E9F6C /* KCTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextParser.m; sourceTree = "<group>"; };
+		3C78C4E6211042FD006E9F6C /* MKAnnotationView+KCWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+KCWebImage.h"; sourceTree = "<group>"; };
+		3C78C4E7211042FE006E9F6C /* KCCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCCache.h; sourceTree = "<group>"; };
+		3C78C4E8211042FE006E9F6C /* KCTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTransaction.h; sourceTree = "<group>"; };
+		3C78C4E9211042FE006E9F6C /* KCTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextLayout.h; sourceTree = "<group>"; };
+		3C78C4EA211042FE006E9F6C /* NSDictionary+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C4EB211042FF006E9F6C /* NSObject+KCAddForARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KCAddForARC.h"; sourceTree = "<group>"; };
+		3C78C4EC211042FF006E9F6C /* UIButton+KCWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KCWebImage.m"; sourceTree = "<group>"; };
+		3C78C4ED211042FF006E9F6C /* UIPasteboard+KCText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+KCText.m"; sourceTree = "<group>"; };
+		3C78C4EE211042FF006E9F6C /* NSKeyedUnarchiver+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSKeyedUnarchiver+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C4EF21104300006E9F6C /* CALayer+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C4F021104300006E9F6C /* KCTextEffectWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextEffectWindow.h; sourceTree = "<group>"; };
+		3C78C4F121104300006E9F6C /* UIImageView+KCWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KCWebImage.h"; sourceTree = "<group>"; };
+		3C78C4F221104300006E9F6C /* KCTextDebugOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTextDebugOption.h; sourceTree = "<group>"; };
+		3C78C4F321104300006E9F6C /* UITableView+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C4F421104301006E9F6C /* UIView+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4F521104301006E9F6C /* NSKeyedUnarchiver+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSKeyedUnarchiver+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4F621104301006E9F6C /* KCDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCDiskCache.m; sourceTree = "<group>"; };
+		3C78C4F721104301006E9F6C /* KCTextSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextSelectionView.m; sourceTree = "<group>"; };
+		3C78C4F821104302006E9F6C /* KCKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCKVStorage.m; sourceTree = "<group>"; };
+		3C78C4F921104302006E9F6C /* NSThread+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C4FA21104302006E9F6C /* UIImage+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C4FB21104302006E9F6C /* UIScrollView+KCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KCAdd.m"; sourceTree = "<group>"; };
+		3C78C4FC21104303006E9F6C /* KCTextKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTextKeyboardManager.m; sourceTree = "<group>"; };
+		3C78C4FD21104303006E9F6C /* KCWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCWeakProxy.h; sourceTree = "<group>"; };
+		3C78C4FE21104303006E9F6C /* NSDate+KCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KCAdd.h"; sourceTree = "<group>"; };
+		3C78C4FF21104303006E9F6C /* KCAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAnimatedImageView.m; sourceTree = "<group>"; };
+		3C78C54F21104316006E9F6C /* KCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C78C42121104269006E9F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C78C41B21104269006E9F6C = {
+			isa = PBXGroup;
+			children = (
+				3C78C42621104269006E9F6C /* KCKit */,
+				3C78C42521104269006E9F6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C78C42521104269006E9F6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C78C42421104269006E9F6C /* KCKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C78C42621104269006E9F6C /* KCKit */ = {
+			isa = PBXGroup;
+			children = (
+				3C78C54F21104316006E9F6C /* KCKit.h */,
+				3C78C4A9211042F1006E9F6C /* _KCWebImageSetter.h */,
+				3C78C4C6211042F6006E9F6C /* _KCWebImageSetter.m */,
+				3C78C4C2211042F6006E9F6C /* CALayer+KCAdd.h */,
+				3C78C4EF21104300006E9F6C /* CALayer+KCAdd.m */,
+				3C78C4AC211042F2006E9F6C /* CALayer+KCWebImage.h */,
+				3C78C4A6211042F0006E9F6C /* CALayer+KCWebImage.m */,
+				3C78C4D9211042FA006E9F6C /* KCAnimatedImageView.h */,
+				3C78C4FF21104303006E9F6C /* KCAnimatedImageView.m */,
+				3C78C4AE211042F2006E9F6C /* KCAssertDefine.h */,
+				3C78C4AF211042F2006E9F6C /* KCAsyncLayer.h */,
+				3C78C4E3211042FD006E9F6C /* KCAsyncLayer.m */,
+				3C78C4E7211042FE006E9F6C /* KCCache.h */,
+				3C78C485211042E9006E9F6C /* KCCache.m */,
+				3C78C4D4211042F9006E9F6C /* KCCGUtilities.h */,
+				3C78C4BB211042F5006E9F6C /* KCCGUtilities.m */,
+				3C78C4C1211042F6006E9F6C /* KCClassInfo.h */,
+				3C78C4D5211042FA006E9F6C /* KCClassInfo.m */,
+				3C78C478211042E8006E9F6C /* KCDiskCache.h */,
+				3C78C4F621104301006E9F6C /* KCDiskCache.m */,
+				3C78C467211042E7006E9F6C /* KCDispatchQueuePool.h */,
+				3C78C4D3211042F9006E9F6C /* KCDispatchQueuePool.m */,
+				3C78C48E211042EB006E9F6C /* KCFileHash.h */,
+				3C78C49A211042EE006E9F6C /* KCFileHash.m */,
+				3C78C45F211042E6006E9F6C /* KCFrameImage.h */,
+				3C78C48A211042EA006E9F6C /* KCFrameImage.m */,
+				3C78C4A5211042F0006E9F6C /* KCGestureRecognizer.h */,
+				3C78C4BE211042F5006E9F6C /* KCGestureRecognizer.m */,
+				3C78C4BF211042F5006E9F6C /* KCImage.h */,
+				3C78C493211042EC006E9F6C /* KCImage.m */,
+				3C78C4DD211042FB006E9F6C /* KCImageCache.h */,
+				3C78C48F211042EB006E9F6C /* KCImageCache.m */,
+				3C78C468211042E7006E9F6C /* KCImageCoder.h */,
+				3C78C477211042E8006E9F6C /* KCImageCoder.m */,
+				3C78C4AD211042F2006E9F6C /* KCKitMacro.h */,
+				3C78C4D7211042FA006E9F6C /* KCKVStorage.h */,
+				3C78C4F821104302006E9F6C /* KCKVStorage.m */,
+				3C78C4C3211042F6006E9F6C /* KCLabel.h */,
+				3C78C49B211042EE006E9F6C /* KCLabel.m */,
+				3C78C47C211042E8006E9F6C /* KCMemoryCache.h */,
+				3C78C473211042E8006E9F6C /* KCMemoryCache.m */,
+				3C78C4DE211042FB006E9F6C /* KCReachability.h */,
+				3C78C496211042EC006E9F6C /* KCReachability.m */,
+				3C78C4A3211042F0006E9F6C /* KCSafeArray.h */,
+				3C78C4DF211042FB006E9F6C /* KCSafeArray.m */,
+				3C78C471211042E8006E9F6C /* KCSafeDictionary.h */,
+				3C78C4DC211042FB006E9F6C /* KCSafeDictionary.m */,
+				3C78C465211042E7006E9F6C /* KCSentinel.h */,
+				3C78C4B1211042F3006E9F6C /* KCSentinel.m */,
+				3C78C475211042E8006E9F6C /* KCSpriteSheetImage.h */,
+				3C78C462211042E6006E9F6C /* KCSpriteSheetImage.m */,
+				3C78C4B6211042F4006E9F6C /* KCTextArchiver.h */,
+				3C78C474211042E8006E9F6C /* KCTextArchiver.m */,
+				3C78C4BD211042F5006E9F6C /* KCTextAttribute.h */,
+				3C78C4E4211042FD006E9F6C /* KCTextAttribute.m */,
+				3C78C47F211042E9006E9F6C /* KCTextContainerView.h */,
+				3C78C4D1211042F9006E9F6C /* KCTextContainerView.m */,
+				3C78C4F221104300006E9F6C /* KCTextDebugOption.h */,
+				3C78C4D6211042FA006E9F6C /* KCTextDebugOption.m */,
+				3C78C4F021104300006E9F6C /* KCTextEffectWindow.h */,
+				3C78C4E2211042FC006E9F6C /* KCTextEffectWindow.m */,
+				3C78C4C4211042F6006E9F6C /* KCTextInput.h */,
+				3C78C483211042E9006E9F6C /* KCTextInput.m */,
+				3C78C4B8211042F4006E9F6C /* KCTextKeyboardManager.h */,
+				3C78C4FC21104303006E9F6C /* KCTextKeyboardManager.m */,
+				3C78C4E9211042FE006E9F6C /* KCTextLayout.h */,
+				3C78C4AA211042F1006E9F6C /* KCTextLayout.m */,
+				3C78C4B5211042F3006E9F6C /* KCTextLine.h */,
+				3C78C4C0211042F5006E9F6C /* KCTextLine.m */,
+				3C78C4D0211042F8006E9F6C /* KCTextMagnifier.h */,
+				3C78C494211042EC006E9F6C /* KCTextMagnifier.m */,
+				3C78C4B2211042F3006E9F6C /* KCTextParser.h */,
+				3C78C4E5211042FD006E9F6C /* KCTextParser.m */,
+				3C78C476211042E8006E9F6C /* KCTextRubyAnnotation.h */,
+				3C78C4E0211042FC006E9F6C /* KCTextRubyAnnotation.m */,
+				3C78C48D211042EB006E9F6C /* KCTextRunDelegate.h */,
+				3C78C466211042E7006E9F6C /* KCTextRunDelegate.m */,
+				3C78C46D211042E7006E9F6C /* KCTextSelectionView.h */,
+				3C78C4F721104301006E9F6C /* KCTextSelectionView.m */,
+				3C78C498211042ED006E9F6C /* KCTextUtilities.h */,
+				3C78C469211042E7006E9F6C /* KCTextUtilities.m */,
+				3C78C4B9211042F4006E9F6C /* KCTextView.h */,
+				3C78C4CA211042F7006E9F6C /* KCTextView.m */,
+				3C78C4E8211042FE006E9F6C /* KCTransaction.h */,
+				3C78C4CF211042F8006E9F6C /* KCTransaction.m */,
+				3C78C4FD21104303006E9F6C /* KCWeakProxy.h */,
+				3C78C499211042ED006E9F6C /* KCWeakProxy.m */,
+				3C78C4E1211042FC006E9F6C /* KCWebImageManager.h */,
+				3C78C49D211042EE006E9F6C /* KCWebImageManager.m */,
+				3C78C479211042E8006E9F6C /* KCWebImageOperation.h */,
+				3C78C48C211042EB006E9F6C /* KCWebImageOperation.m */,
+				3C78C4E6211042FD006E9F6C /* MKAnnotationView+KCWebImage.h */,
+				3C78C47A211042E8006E9F6C /* MKAnnotationView+KCWebImage.m */,
+				3C78C49E211042EF006E9F6C /* NSArray+KCAdd.h */,
+				3C78C460211042E6006E9F6C /* NSArray+KCAdd.m */,
+				3C78C4C5211042F6006E9F6C /* NSAttributedString+KCText.h */,
+				3C78C461211042E6006E9F6C /* NSAttributedString+KCText.m */,
+				3C78C464211042E7006E9F6C /* NSBundle+KCAdd.h */,
+				3C78C472211042E8006E9F6C /* NSBundle+KCAdd.m */,
+				3C78C46A211042E7006E9F6C /* NSData+KCAdd.h */,
+				3C78C482211042E9006E9F6C /* NSData+KCAdd.m */,
+				3C78C4FE21104303006E9F6C /* NSDate+KCAdd.h */,
+				3C78C484211042E9006E9F6C /* NSDate+KCAdd.m */,
+				3C78C4A7211042F1006E9F6C /* NSDictionary+KCAdd.h */,
+				3C78C4EA211042FE006E9F6C /* NSDictionary+KCAdd.m */,
+				3C78C4F521104301006E9F6C /* NSKeyedUnarchiver+KCAdd.h */,
+				3C78C4EE211042FF006E9F6C /* NSKeyedUnarchiver+KCAdd.m */,
+				3C78C4C7211042F7006E9F6C /* NSNotificationCenter+KCAdd.h */,
+				3C78C4AB211042F1006E9F6C /* NSNotificationCenter+KCAdd.m */,
+				3C78C4BC211042F5006E9F6C /* NSNumber+KCAdd.h */,
+				3C78C47E211042E8006E9F6C /* NSNumber+KCAdd.m */,
+				3C78C487211042E9006E9F6C /* NSObject+KCAdd.h */,
+				3C78C47D211042E8006E9F6C /* NSObject+KCAdd.m */,
+				3C78C4EB211042FF006E9F6C /* NSObject+KCAddForARC.h */,
+				3C78C491211042EC006E9F6C /* NSObject+KCAddForARC.m */,
+				3C78C4D8211042FA006E9F6C /* NSObject+KCAddForKVO.h */,
+				3C78C490211042EB006E9F6C /* NSObject+KCAddForKVO.m */,
+				3C78C488211042EA006E9F6C /* NSObject+KCModel.h */,
+				3C78C4B7211042F4006E9F6C /* NSObject+KCModel.m */,
+				3C78C470211042E7006E9F6C /* NSParagraphStyle+KCText.h */,
+				3C78C4CB211042F7006E9F6C /* NSParagraphStyle+KCText.m */,
+				3C78C4B0211042F3006E9F6C /* NSString+KCAdd.h */,
+				3C78C4C9211042F7006E9F6C /* NSString+KCAdd.m */,
+				3C78C46C211042E7006E9F6C /* NSThread+KCAdd.h */,
+				3C78C4F921104302006E9F6C /* NSThread+KCAdd.m */,
+				3C78C48B211042EA006E9F6C /* NSTimer+KCAdd.h */,
+				3C78C4C8211042F7006E9F6C /* NSTimer+KCAdd.m */,
+				3C78C463211042E6006E9F6C /* UIApplication+KCAdd.h */,
+				3C78C46E211042E7006E9F6C /* UIApplication+KCAdd.m */,
+				3C78C4A8211042F1006E9F6C /* UIBarButtonItem+KCAdd.h */,
+				3C78C480211042E9006E9F6C /* UIBarButtonItem+KCAdd.m */,
+				3C78C489211042EA006E9F6C /* UIBezierPath+KCAdd.h */,
+				3C78C4CC211042F8006E9F6C /* UIBezierPath+KCAdd.m */,
+				3C78C4D2211042F9006E9F6C /* UIButton+KCWebImage.h */,
+				3C78C4EC211042FF006E9F6C /* UIButton+KCWebImage.m */,
+				3C78C4BA211042F4006E9F6C /* UIColor+KCAdd.h */,
+				3C78C47B211042E8006E9F6C /* UIColor+KCAdd.m */,
+				3C78C49F211042EF006E9F6C /* UIControl+KCAdd.h */,
+				3C78C4DA211042FA006E9F6C /* UIControl+KCAdd.m */,
+				3C78C4B4211042F3006E9F6C /* UIDevice+KCAdd.h */,
+				3C78C49C211042EE006E9F6C /* UIDevice+KCAdd.m */,
+				3C78C492211042EC006E9F6C /* UIFont+KCAdd.h */,
+				3C78C46B211042E7006E9F6C /* UIFont+KCAdd.m */,
+				3C78C4CD211042F8006E9F6C /* UIGestureRecognizer+KCAdd.h */,
+				3C78C497211042ED006E9F6C /* UIGestureRecognizer+KCAdd.m */,
+				3C78C46F211042E7006E9F6C /* UIImage+KCAdd.h */,
+				3C78C4FA21104302006E9F6C /* UIImage+KCAdd.m */,
+				3C78C4F121104300006E9F6C /* UIImageView+KCWebImage.h */,
+				3C78C4A0211042EF006E9F6C /* UIImageView+KCWebImage.m */,
+				3C78C4A1211042EF006E9F6C /* UIPasteboard+KCText.h */,
+				3C78C4ED211042FF006E9F6C /* UIPasteboard+KCText.m */,
+				3C78C481211042E9006E9F6C /* UIScreen+KCAdd.h */,
+				3C78C495211042EC006E9F6C /* UIScreen+KCAdd.m */,
+				3C78C4DB211042FB006E9F6C /* UIScrollView+KCAdd.h */,
+				3C78C4FB21104302006E9F6C /* UIScrollView+KCAdd.m */,
+				3C78C486211042E9006E9F6C /* UITableView+KCAdd.h */,
+				3C78C4F321104300006E9F6C /* UITableView+KCAdd.m */,
+				3C78C4B3211042F3006E9F6C /* UITextField+KCAdd.h */,
+				3C78C4A2211042F0006E9F6C /* UITextField+KCAdd.m */,
+				3C78C4F421104301006E9F6C /* UIView+KCAdd.h */,
+				3C78C4CE211042F8006E9F6C /* UIView+KCAdd.m */,
+			);
+			path = KCKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C78C42321104269006E9F6C /* KCKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C78C4562110426B006E9F6C /* Build configuration list for PBXNativeTarget "KCKit" */;
+			buildPhases = (
+				3C78C42021104269006E9F6C /* Sources */,
+				3C78C42121104269006E9F6C /* Frameworks */,
+				3C78C42221104269006E9F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCKit;
+			productName = KCKit;
+			productReference = 3C78C42421104269006E9F6C /* KCKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C78C41C21104269006E9F6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = KC;
+				TargetAttributes = {
+					3C78C42321104269006E9F6C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 3C78C41F21104269006E9F6C /* Build configuration list for PBXProject "KCKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C78C41B21104269006E9F6C;
+			productRefGroup = 3C78C42521104269006E9F6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C78C42321104269006E9F6C /* KCKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C78C42221104269006E9F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C78C42021104269006E9F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C78C53121104304006E9F6C /* NSParagraphStyle+KCText.m in Sources */,
+				3C78C50A21104304006E9F6C /* KCImageCoder.m in Sources */,
+				3C78C54921104304006E9F6C /* KCKVStorage.m in Sources */,
+				3C78C52C21104304006E9F6C /* KCTextLine.m in Sources */,
+				3C78C52921104304006E9F6C /* NSObject+KCModel.m in Sources */,
+				3C78C54021104304006E9F6C /* KCTextParser.m in Sources */,
+				3C78C54821104304006E9F6C /* KCTextSelectionView.m in Sources */,
+				3C78C54521104304006E9F6C /* CALayer+KCAdd.m in Sources */,
+				3C78C53321104304006E9F6C /* UIView+KCAdd.m in Sources */,
+				3C78C52D21104304006E9F6C /* _KCWebImageSetter.m in Sources */,
+				3C78C50721104304006E9F6C /* NSBundle+KCAdd.m in Sources */,
+				3C78C52F21104304006E9F6C /* NSString+KCAdd.m in Sources */,
+				3C78C53821104304006E9F6C /* KCTextDebugOption.m in Sources */,
+				3C78C51721104304006E9F6C /* NSObject+KCAddForKVO.m in Sources */,
+				3C78C51D21104304006E9F6C /* UIGestureRecognizer+KCAdd.m in Sources */,
+				3C78C50F21104304006E9F6C /* UIBarButtonItem+KCAdd.m in Sources */,
+				3C78C50421104304006E9F6C /* KCTextUtilities.m in Sources */,
+				3C78C50D21104304006E9F6C /* NSObject+KCAdd.m in Sources */,
+				3C78C52121104304006E9F6C /* UIDevice+KCAdd.m in Sources */,
+				3C78C52B21104304006E9F6C /* KCGestureRecognizer.m in Sources */,
+				3C78C54621104304006E9F6C /* UITableView+KCAdd.m in Sources */,
+				3C78C53421104304006E9F6C /* KCTransaction.m in Sources */,
+				3C78C51021104304006E9F6C /* NSData+KCAdd.m in Sources */,
+				3C78C52321104304006E9F6C /* UIImageView+KCWebImage.m in Sources */,
+				3C78C53F21104304006E9F6C /* KCTextAttribute.m in Sources */,
+				3C78C53A21104304006E9F6C /* KCSafeDictionary.m in Sources */,
+				3C78C50121104304006E9F6C /* NSAttributedString+KCText.m in Sources */,
+				3C78C50B21104304006E9F6C /* MKAnnotationView+KCWebImage.m in Sources */,
+				3C78C50521104304006E9F6C /* UIFont+KCAdd.m in Sources */,
+				3C78C52221104304006E9F6C /* KCWebImageManager.m in Sources */,
+				3C78C54421104304006E9F6C /* NSKeyedUnarchiver+KCAdd.m in Sources */,
+				3C78C54721104304006E9F6C /* KCDiskCache.m in Sources */,
+				3C78C53B21104304006E9F6C /* KCSafeArray.m in Sources */,
+				3C78C53921104304006E9F6C /* UIControl+KCAdd.m in Sources */,
+				3C78C52821104304006E9F6C /* KCSentinel.m in Sources */,
+				3C78C52521104304006E9F6C /* CALayer+KCWebImage.m in Sources */,
+				3C78C50921104304006E9F6C /* KCTextArchiver.m in Sources */,
+				3C78C53D21104304006E9F6C /* KCTextEffectWindow.m in Sources */,
+				3C78C50E21104304006E9F6C /* NSNumber+KCAdd.m in Sources */,
+				3C78C54D21104304006E9F6C /* KCTextKeyboardManager.m in Sources */,
+				3C78C50321104304006E9F6C /* KCTextRunDelegate.m in Sources */,
+				3C78C54E21104304006E9F6C /* KCAnimatedImageView.m in Sources */,
+				3C78C51521104304006E9F6C /* KCWebImageOperation.m in Sources */,
+				3C78C54B21104304006E9F6C /* UIImage+KCAdd.m in Sources */,
+				3C78C50821104304006E9F6C /* KCMemoryCache.m in Sources */,
+				3C78C52A21104304006E9F6C /* KCCGUtilities.m in Sources */,
+				3C78C51B21104304006E9F6C /* UIScreen+KCAdd.m in Sources */,
+				3C78C51921104304006E9F6C /* KCImage.m in Sources */,
+				3C78C50C21104304006E9F6C /* UIColor+KCAdd.m in Sources */,
+				3C78C53221104304006E9F6C /* UIBezierPath+KCAdd.m in Sources */,
+				3C78C51C21104304006E9F6C /* KCReachability.m in Sources */,
+				3C78C53021104304006E9F6C /* KCTextView.m in Sources */,
+				3C78C51321104304006E9F6C /* KCCache.m in Sources */,
+				3C78C52621104304006E9F6C /* KCTextLayout.m in Sources */,
+				3C78C54321104304006E9F6C /* UIPasteboard+KCText.m in Sources */,
+				3C78C52721104304006E9F6C /* NSNotificationCenter+KCAdd.m in Sources */,
+				3C78C51221104304006E9F6C /* NSDate+KCAdd.m in Sources */,
+				3C78C51621104304006E9F6C /* KCImageCache.m in Sources */,
+				3C78C51421104304006E9F6C /* KCFrameImage.m in Sources */,
+				3C78C50021104304006E9F6C /* NSArray+KCAdd.m in Sources */,
+				3C78C51F21104304006E9F6C /* KCFileHash.m in Sources */,
+				3C78C52421104304006E9F6C /* UITextField+KCAdd.m in Sources */,
+				3C78C53C21104304006E9F6C /* KCTextRubyAnnotation.m in Sources */,
+				3C78C53521104304006E9F6C /* KCTextContainerView.m in Sources */,
+				3C78C53621104304006E9F6C /* KCDispatchQueuePool.m in Sources */,
+				3C78C51A21104304006E9F6C /* KCTextMagnifier.m in Sources */,
+				3C78C54221104304006E9F6C /* UIButton+KCWebImage.m in Sources */,
+				3C78C53721104304006E9F6C /* KCClassInfo.m in Sources */,
+				3C78C54A21104304006E9F6C /* NSThread+KCAdd.m in Sources */,
+				3C78C53E21104304006E9F6C /* KCAsyncLayer.m in Sources */,
+				3C78C51121104304006E9F6C /* KCTextInput.m in Sources */,
+				3C78C51E21104304006E9F6C /* KCWeakProxy.m in Sources */,
+				3C78C52E21104304006E9F6C /* NSTimer+KCAdd.m in Sources */,
+				3C78C50221104304006E9F6C /* KCSpriteSheetImage.m in Sources */,
+				3C78C54121104304006E9F6C /* NSDictionary+KCAdd.m in Sources */,
+				3C78C54C21104304006E9F6C /* UIScrollView+KCAdd.m in Sources */,
+				3C78C52021104304006E9F6C /* KCLabel.m in Sources */,
+				3C78C50621104304006E9F6C /* UIApplication+KCAdd.m in Sources */,
+				3C78C51821104304006E9F6C /* NSObject+KCAddForARC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C78C4542110426B006E9F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C78C4552110426B006E9F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C78C4572110426B006E9F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ENX4LDMS3K;
+				INFOPLIST_FILE = KCKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KC.KCKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C78C4582110426B006E9F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ENX4LDMS3K;
+				INFOPLIST_FILE = KCKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KC.KCKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C78C41F21104269006E9F6C /* Build configuration list for PBXProject "KCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C78C4542110426B006E9F6C /* Debug */,
+				3C78C4552110426B006E9F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C78C4562110426B006E9F6C /* Build configuration list for PBXNativeTarget "KCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C78C4572110426B006E9F6C /* Debug */,
+				3C78C4582110426B006E9F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C78C41C21104269006E9F6C /* Project object */;
+}
